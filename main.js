@@ -1,9 +1,9 @@
 const modal = document.querySelector('.backdrop');
 const openModalBtn = document.querySelector('.hero-btn');
 const closeModalBtn = document.querySelector('.modal-close-btn');
-const mobileModal = document.querySelector('.menu-open-btn');
-const mobileOpenBtn = document.querySelector('.mobile-burger-btn');
-const mobileCloseBtn = document.querySelector('.mobile-close-btn');
+const mobileModal = document.querySelector('.mob-menu');
+const mobileOpenBtn = document.querySelector('.menu-open-btn');
+const mobileCloseBtn = document.querySelector('.menu-close-btn');
 
 openModalBtn.addEventListener('click', () => {
     modal.classList.add('is-open');
